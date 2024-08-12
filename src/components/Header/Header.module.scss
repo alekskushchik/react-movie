@@ -1,0 +1,23 @@
+.headerWrapper {
+  position: sticky;
+  top: 0;
+  background-color: #242424;
+  z-index: 1;
+
+  .contentWrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    .contentRight {
+      display: flex;
+      gap: 20px;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}

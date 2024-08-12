@@ -1,0 +1,88 @@
+.movieContainer {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  height: auto;
+  min-height: 691px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .movieContent {
+    width: 1140px;
+    height: 474px;
+    display: flex;
+    gap: 56px;
+    flex-direction: row;
+
+    .title {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 70px;
+      font-weight: 700;
+    }
+
+    .description {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 24px;
+      letter-spacing: 0.05em;
+      text-align: left;
+    }
+
+    .genres {
+      display: flex;
+      flex-direction: row;
+      gap: 14px;
+
+      .genresHeading {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: left;
+      }
+
+      .genresList {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        .genreItem {
+          padding: 6.5px 12px;
+          font-size: 12px;
+          font-weight: 300;
+          line-height: 14.4px;
+          border: 1.5px solid #4f4f4f;
+          border-radius: 20px;
+        }
+      }
+    }
+
+    .productionCompanies {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 124px;
+
+      .companyLogo {
+        width: auto;
+        height: 26px;
+      }
+    }
+
+    .moviePoster {
+      width: 335px;
+      height: 100%;
+      aspect-ratio: 2 / 3;
+
+      img {
+        height: 100%;
+      }
+    }
+  }
+}
